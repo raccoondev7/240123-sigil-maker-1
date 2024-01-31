@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Sigil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cyber Sigil Gen</h1>
+        <div class="inputbox">
+            <label for="phrase"><h4>Type your phrase to create a sigil:</h4></label>
+                <input type="text" id="phrase" name="phrase" required minlength="1" maxlength="1000" size="40" />
+            <button class="btn" id="go">GO</button>
+        </div>
+        <div class="displayphrase" id="displayphrase"><br></div>
+        <div class="displayconsonants" id="displayconsonants"><br></div>
+        <div class="displaynodupli" id="displaynodupli"><br></div>
+
+        <div class="gridbox">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <svg width="500" height="500"><line x1="50" y1="50" x2="350" y2="350" stroke="black"/></svg>
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
